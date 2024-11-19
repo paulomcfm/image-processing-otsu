@@ -52,9 +52,9 @@ namespace ProjEncontraPlaca
         {
             imageBitmap = (Bitmap)image.Clone();
             Bitmap imgDest = (Bitmap)image.Clone();
-            Filtros.encontra_placa(imageBitmap, imgDest);
+            Bitmap recorteBitmap = Filtros.encontra_placa(imageBitmap, imgDest);
 
-            pictBoxImg.Image = imgDest;
+            pictBoxImg.Image = recorteBitmap;
         }
 
         private void btnReconheDigito_Click(object sender, EventArgs e)

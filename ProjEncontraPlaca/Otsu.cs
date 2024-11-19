@@ -107,13 +107,21 @@ namespace ProjEncontraPlaca
             unsafe
             {
                 byte* p = (byte*)(void*)bmData.Scan0.ToPointer();
-                int stopAddress = (int)p + bmData.Stride * bmData.Height;
-                while ((int)p != stopAddress)
+                int stride = bmData.Stride;
+                int height = bmp.Height;
+                int width = bmp.Width;
+
+                for (int y = 0; y < height; y++)
                 {
-                    p[0] = (byte)(.299 * p[2] + .587 * p[1] + .114 * p[0]);
-                    p[1] = p[0];
-                    p[2] = p[0];
-                    p += 3;
+                    byte* row = p + (y * stride);
+                    for (int x = 0; x < width; x++)
+                    {
+                        byte* pixel = row + (x * 3);
+                        byte gray = (byte)(.299 * pixel[2] + .587 * pixel[1] + .114 * pixel[0]);
+                        pixel[0] = gray;
+                        pixel[1] = gray;
+                        pixel[2] = gray;
+                    }
                 }
             }
             bmp.UnlockBits(bmData);

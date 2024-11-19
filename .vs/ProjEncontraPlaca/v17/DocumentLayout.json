@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\paulo\\Downloads\\ProjEncontraPlaca\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D5CBCDBE-FAE2-455E-9FEB-8FEF43472F9A}|ProjEncontraPlaca\\ProjEncontraPlaca.csproj|c:\\users\\paulo\\downloads\\projencontraplaca\\projencontraplaca\\filtros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5CBCDBE-FAE2-455E-9FEB-8FEF43472F9A}|ProjEncontraPlaca\\ProjEncontraPlaca.csproj|solutionrelative:projencontraplaca\\filtros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5CBCDBE-FAE2-455E-9FEB-8FEF43472F9A}|ProjEncontraPlaca\\ProjEncontraPlaca.csproj|C:\\Users\\paulo\\Downloads\\ProjEncontraPlaca\\projencontraplaca\\otsu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5CBCDBE-FAE2-455E-9FEB-8FEF43472F9A}|ProjEncontraPlaca\\ProjEncontraPlaca.csproj|solutionrelative:projencontraplaca\\otsu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5CBCDBE-FAE2-455E-9FEB-8FEF43472F9A}|ProjEncontraPlaca\\ProjEncontraPlaca.csproj|C:\\Users\\paulo\\Downloads\\ProjEncontraPlaca\\projencontraplaca\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5CBCDBE-FAE2-455E-9FEB-8FEF43472F9A}|ProjEncontraPlaca\\ProjEncontraPlaca.csproj|solutionrelative:projencontraplaca\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Otsu.cs",
+              "DocumentMoniker": "C:\\Users\\paulo\\Downloads\\ProjEncontraPlaca\\ProjEncontraPlaca\\Otsu.cs",
+              "RelativeDocumentMoniker": "ProjEncontraPlaca\\Otsu.cs",
+              "ToolTip": "C:\\Users\\paulo\\Downloads\\ProjEncontraPlaca\\ProjEncontraPlaca\\Otsu.cs",
+              "RelativeToolTip": "ProjEncontraPlaca\\Otsu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T20:52:22.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\paulo\\Downloads\\ProjEncontraPlaca\\ProjEncontraPlaca\\frmPrincipal.cs",
+              "RelativeDocumentMoniker": "ProjEncontraPlaca\\frmPrincipal.cs",
+              "ToolTip": "C:\\Users\\paulo\\Downloads\\ProjEncontraPlaca\\ProjEncontraPlaca\\frmPrincipal.cs",
+              "RelativeToolTip": "ProjEncontraPlaca\\frmPrincipal.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAcwFIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T22:20:16.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Filtros.cs",
+              "DocumentMoniker": "C:\\Users\\paulo\\Downloads\\ProjEncontraPlaca\\ProjEncontraPlaca\\Filtros.cs",
+              "RelativeDocumentMoniker": "ProjEncontraPlaca\\Filtros.cs",
+              "ToolTip": "C:\\Users\\paulo\\Downloads\\ProjEncontraPlaca\\ProjEncontraPlaca\\Filtros.cs",
+              "RelativeToolTip": "ProjEncontraPlaca\\Filtros.cs",
+              "ViewState": "AgIAABEBAAAAAAAAAADgvyABAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T22:27:23.418Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
