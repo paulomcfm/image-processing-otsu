@@ -163,7 +163,7 @@ namespace ProjEncontraPlaca
             List<Point> listaPfim = new List<Point>();
             int width = imageBitmapSrc.Width;
             int height = imageBitmapSrc.Height;
-            int recorteLargura = 220;
+            int recorteLargura = 250;
             int recorteAltura = 50;
             bool encontrouCaracteres = false;
             Bitmap recorteBitmap = null;
@@ -171,6 +171,7 @@ namespace ProjEncontraPlaca
             {
                 for (int x = 0; x <= width - recorteLargura && !encontrouCaracteres; x=x+10)
                 {
+                    System.Windows.Forms.Application.DoEvents();
                     Rectangle recorte = new Rectangle(x, y, recorteLargura, recorteAltura);
                     recorteBitmap = imageBitmapSrc.Clone(recorte, imageBitmapSrc.PixelFormat);
 
@@ -208,17 +209,19 @@ namespace ProjEncontraPlaca
                     {
                         if (estaPertoDaBordaDireita(x, y, _listaPfim, recorteLargura))
                         {
-                            string path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-                            string pathImageCaractere = Path.Combine(path, "placaTentativaHor.jpg");
-                            Bitmap imageBitmapCaractere = (Bitmap)recorteBitmap.Clone();
-                            recorteBitmap.Save(pathImageCaractere, ImageFormat.Jpeg);
+                            //x = x - 3;
+                            //string path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+                            //string pathImageCaractere = Path.Combine(path, "placaTentativaHor.jpg");
+                            //Bitmap imageBitmapCaractere = (Bitmap)recorteBitmap.Clone();
+                            //recorteBitmap.Save(pathImageCaractere, ImageFormat.Jpeg);
                         }
                         if (estaPertoDaBordaInferior(x, y, _listaPfim, recorteAltura))
                         {
-                            string path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-                            string pathImageCaractere = Path.Combine(path, "placaTentativaVer.jpg");
-                            Bitmap imageBitmapCaractere = (Bitmap)recorteBitmap.Clone();
-                            recorteBitmap.Save(pathImageCaractere, ImageFormat.Jpeg);
+                            //y = y - 3;
+                            //string path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+                            //string pathImageCaractere = Path.Combine(path, "placaTentativaVer.jpg");
+                            //Bitmap imageBitmapCaractere = (Bitmap)recorteBitmap.Clone();
+                            //recorteBitmap.Save(pathImageCaractere, ImageFormat.Jpeg);
                         }
                         if(!estaPertoDaBordaDireita(x, y, _listaPfim, recorteLargura) && !estaPertoDaBordaInferior(x, y, _listaPfim, recorteAltura))
                         {
